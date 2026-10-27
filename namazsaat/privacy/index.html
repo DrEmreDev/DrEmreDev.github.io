@@ -13,7 +13,7 @@
 <p class="lang"><a href="../gizlilik/" hreflang="tr" lang="tr">Türkçe</a></p>
 
 <h1>Namaz Saat · Privacy policy</h1>
-<p class="updated">Last updated: 26 October 2026</p>
+<p class="updated">Last updated: 27 October 2026</p>
 
 <p>Namaz Saat is an Android app that shows prayer times and notifies you when a prayer time begins. This page is the privacy notice under Türkiye's Personal Data Protection Law No. 6698 (KVKK) and the European Union's General Data Protection Regulation (GDPR): it explains what information the app uses, where it keeps it and who it shares it with. The Turkish version is the original; if the two differ, the Turkish version applies.</p>
 
@@ -23,7 +23,7 @@
 <li>No ads. No analytics, tracking or advertising tools.</li>
 <li>No account. The app never asks for your name, email or phone number.</li>
 <li>The current versions of the app do not connect to the internet and send nothing on their own.</li>
-<li>Your location is used only on your phone, to find the nearest district. It is not stored, and the app sends it nowhere.</li>
+<li>Your location is used only on your phone: to find the nearest district and, if you turn on travel mode, to notice that you are away from home. The app sends it nowhere.</li>
 <li>The app's information is left out of Android's backup to your Google account and out of transfers to a new phone.</li>
 <li>The error log stays on your phone. It reaches the developer only if you share it.</li>
 </ul>
@@ -37,24 +37,28 @@ Questions and requests about your personal data: <a href="mailto:emre.bbt01@gmai
 <p>The app keeps the following only on your phone, in storage Android reserves for the app that other apps cannot read:</p>
 <ul>
 <li>The selected district and up to five recently used districts (the selected one included). Districts chosen by automatic location are added too, so while automatic location is on, the list can show districts you were recently in.</li>
-<li>Whether automatic location is on, and when the location was last read. The location itself is not kept.</li>
+<li>Whether automatic location is on, and when the location was last read. The location itself is not kept; if you turn on travel mode, the approximate places that are kept are listed in the last item of this list.</li>
 <li>Your notification settings for each prayer (sound, reminder in advance) and the notifications planned for the next seven days. The title of a prayer-time notification includes the district name.</li>
 <li>Your theme choice, and which step of the first launch you reached.</li>
+<li>The prayer time schedule prepared for the home screen widget and the lock screen countdown: the name of the selected district and the times kept on the phone. It is prepared even if you do not use the widget, so that a widget works as soon as you add it. It is kept for the selected district only and is deleted with the app. Whether the lock screen countdown is on is kept too.</li>
 <li>For those five districts only, a cache of prayer times and district details: the district's name, province, time zone, the coordinates of the district centre and when it was saved. When a district drops off the list, its details are deleted; old months are removed over time too.</li>
 <li>The error log (<a href="#error-log">section 5</a>).</li>
+<li>If you turn on travel mode: the approximate place of your home (coordinates rounded to about 1 km); your travel status (at home, away from home, not a traveller, traveller (seferî) or resident where you went) and your answers to its cards; the approximate places where you last stopped during a trip, where you last answered or closed the "Burada kaç gün kalacaksın?" (How many days will you stay here?) card and where you became resident, and when the first two were first seen; when the location was last read and roughly how many km from home you were then; and your madhhab choice. The travel places are deleted when you come home. Turning travel mode off deletes your home and travel details; your madhhab choice stays. Your madhhab choice is used only to show travel mode's cards, your travel status and the "Yolculukta namaz" (Prayer while travelling) page according to your madhhab; it does not change prayer times. It is information about religious belief; it is kept only on your phone, never written to the error log, never sent and never reaches the developer.</li>
 </ul>
 <p>The app does not send any of this to the developer or anyone else on its own; the error log leaves your phone only if you share it. Because prayer times and notification settings can hint at your religious practice, the app also keeps this information out of Android's backup to your Google account and out of transfers to a new phone. That is why on a new phone you pick your district again.</p>
 
 <h2 id="location">3. Location</h2>
 <ul>
-<li>The app reads your location in two cases: when you tap "Konumumu kullan" (Use my location) while picking a district, and while automatic location is on.</li>
+<li>The app reads your location in four cases: when you tap "Konumumu kullan" (Use my location) while picking a district, when you tap "Şu an evdeyim, konumumu kullan" (I am home now, use my location) while choosing your home (once, for your home), while automatic location is on, and while travel mode is on.</li>
 <li>Picking your district with "Konumumu kullan" turns automatic location on. Turning on Ayarlar › Konum › Otomatik konum (Settings › Location › Automatic location) also reads the location once right away.</li>
 <li>While automatic location is on, each time the app opens or comes back to the front, it reads the location again if at least half an hour has passed since the last read, and switches to a closer district if you are in one.</li>
+<li>While travel mode is on, each time the app opens or comes back to the front, it uses a location read in the last five minutes if there is one; otherwise it reads the location again if at least half an hour has passed since the last try. If automatic location is also on, both use the same reading. The location is used only on the phone, to work out how far you are from home and from the travel places listed in section 2, and to record those places approximately.</li>
 <li>Location is read only while the app is in use. It is never read in the background, and background location permission is never requested.</li>
 <li>Approximate location is enough. On Android 12 and later you can choose "Approximate" in the permission dialog.</li>
-<li>Your location (coordinates) is not stored, not written to the error log, and not sent anywhere by the app. Only the district result is kept: the selected district, up to five recently used districts and when the location was last read.</li>
+<li>The coordinates of your location are not stored as read, not written to the error log, and not sent anywhere by the app. Only these are kept from it: the selected district, up to five recently used districts and when the location was last read; if you turn on travel mode, also the coordinates of your home and of the travel places listed in section 2, rounded to about 1 km, when the place where you last stopped and the place where you last answered or closed the "Burada kaç gün kalacaksın?" card were first seen, your travel status, and roughly how many km from home you were at the last reading. The rounded places are not written to the error log or sent anywhere by the app either.</li>
 <li>The location comes from your phone's location services. If your phone has Google Play services, the location may come through them. Google runs that service under its own <a href="https://policies.google.com/privacy">privacy policy</a>.</li>
 <li>You can turn automatic location off in Ayarlar › Konum › Otomatik konum. Picking a district by hand also turns it off. You can withdraw the location permission at any time in your phone's settings.</li>
+<li>While the Kıble screen is open, the app reads the phone's compass and motion sensors; the readings are neither stored nor sent anywhere. The qibla direction is calculated on the phone from the coordinates of the district you chose.</li>
 </ul>
 
 <h2 id="notifications">4. Notifications</h2>
@@ -62,6 +66,8 @@ Questions and requests about your personal data: <a href="mailto:emre.bbt01@gmai
 <li>Prayer notifications are planned and shown on your phone. They do not come from any server.</li>
 <li>When the phone restarts or the app is updated, the notifications are set up again. Once a day the app refreshes the notification plan in the background. Nothing is sent while it does.</li>
 <li>The title of a prayer-time notification includes the district name. You can choose whether notifications show on the lock screen in your phone's notification settings.</li>
+<li>If you turn on "Kilit ekranında geri sayım" (Lock screen countdown) in Ayarlar, the time left until the next prayer is shown in the notification area and on the lock screen, without the district name. Your phone's "hide sensitive content" setting does not hide this notification; if you chose to show no notifications, or only icons, on the lock screen, the time left is not shown there. The countdown is off by default.</li>
+<li>A widget you place on the home screen shows the selected district name and the prayer times. Nothing is sent for the widget.</li>
 </ul>
 
 <h2 id="error-log">5. Error log</h2>
@@ -90,16 +96,17 @@ Questions and requests about your personal data: <a href="mailto:emre.bbt01@gmai
 <li>If you install the app from Google Play, Google handles information such as installs and updates under its own policy. Google Play Console shows me aggregate statistics that do not identify you: install counts and breakdowns by country, device and Android version. If sharing usage and diagnostics data is on in your phone, Google also shows me a technical report when the app crashes or freezes: where in the code it happened, the device model, and the Android and app versions. These reports do not contain your name or account. If you write a review on Google Play, I can see the review, the name Google shows with it and device details, and I can reply.</li>
 <li>Apps you pick in the share menu (email, messaging) handle what you send under their own policies.</li>
 <li>The "Gizlilik politikası" (Privacy policy) link in Ayarlar › Hakkında opens the Turkish version of this page (<a href="https://dremredev.github.io/namazsaat/gizlilik/">https://dremredev.github.io/namazsaat/gizlilik/</a>) in your browser; this English version is at <a href="https://dremredev.github.io/namazsaat/privacy/">https://dremredev.github.io/namazsaat/privacy/</a>. These pages are hosted on GitHub Pages. GitHub may keep technical records of visits (such as IP addresses) under its own <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>.</li>
+<li>The "Kaynak" (Source) and "Ayrıntılı bilgi" (More information) links on the "Yolculukta namaz" (Prayer while travelling) page open pages of the Presidency of Religious Affairs (kurul.diyanet.gov.tr, webdosyasp.diyanet.gov.tr) and of the TDV Encyclopedia of Islam (islamansiklopedisi.org.tr) in your browser. The app sends these sites nothing; they may keep technical records of your visit (such as your IP address and the page opened) under their own policies.</li>
 </ul>
 
 <h2 id="permissions">8. Permissions</h2>
 <table>
 <thead><tr><th scope="col">Permission</th><th scope="col">What for</th></tr></thead>
 <tbody>
-<tr><td>Notifications</td><td>Showing prayer notifications</td></tr>
-<tr><td>Alarms &amp; reminders</td><td>Making a notification arrive in the minute the prayer time begins</td></tr>
-<tr><td>Location (approximate or precise, only while the app is in use)</td><td>Finding the nearest district</td></tr>
-<tr><td>Run at startup</td><td>Setting notifications up again after the phone restarts</td></tr>
+<tr><td>Notifications</td><td>Showing prayer notifications and, if you turn it on, the lock screen countdown</td></tr>
+<tr><td>Alarms &amp; reminders</td><td>Making a notification arrive in the minute the prayer time begins; moving the home screen widget and the lock screen countdown on to the next prayer when a prayer time begins</td></tr>
+<tr><td>Location (approximate or precise, only while the app is in use)</td><td>Finding the nearest district; for travel mode, saving the approximate place of your home and of travel places, and working out how far you are from home</td></tr>
+<tr><td>Run at startup</td><td>Setting notifications, the widget and the lock screen countdown up again after the phone restarts</td></tr>
 <tr><td>Vibration</td><td>Vibrating with sounded notifications</td></tr>
 <tr><td>Keep awake, view network state</td><td>Added by the Android library that refreshes the daily notification plan (WorkManager). The app does not use the network state.</td></tr>
 </tbody>
@@ -112,6 +119,8 @@ Questions and requests about your personal data: <a href="mailto:emre.bbt01@gmai
 <h2 id="retention">10. Keeping and deleting</h2>
 <ul>
 <li>Information on your phone stays until you uninstall the app or use Apps › Namaz Saat › Storage › "Clear data" in your phone's settings. Since it is not in any backup, this deletes it completely.</li>
+<li>After "Clear data", a widget on your home screen may keep showing the last district name and times it drew until you open the app again or remove the widget.</li>
+<li>Turning travel mode off in Ayarlar › Özellikler › Yolculuk modu (Settings › Features › Travel mode) deletes the place of your home and your travel details right away; your madhhab choice stays, so that it is ready if you turn travel mode on again. You can delete it, together with the other information on your phone, by uninstalling the app or using "Clear data".</li>
 <li>The cache holds details for the five most recently used districts only; old months are removed over time.</li>
 <li>For how long the developer keeps what you send, see <a href="#developer">section 6</a>.</li>
 </ul>
@@ -122,7 +131,7 @@ Questions and requests about your personal data: <a href="mailto:emre.bbt01@gmai
 <p>You can delete the information on your phone yourself (<a href="#retention">section 10</a>).</p>
 
 <h2 id="children">12. Children</h2>
-<p>The app is suitable for users of all ages. It asks no one for personal information and collects none.</p>
+<p>The app is suitable for users of all ages. It needs no account and does not ask for your name or contact details. It does not send the information it keeps on your phone (<a href="#on-phone">section 2</a>), including the home location and madhhab that travel mode asks for, to the developer or anyone else on its own.</p>
 
 <h2 id="changes">13. Changes</h2>
 <p>If this policy changes, the current version is published at this address and the date at the top of the page changes. This page is updated before the app starts using any new information. For example, when prayer times begin to come over the internet from the Presidency of Religious Affairs (Diyanet) through our own server, this page will first explain what information reaches the server.</p>
