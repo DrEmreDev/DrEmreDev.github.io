@@ -51,7 +51,8 @@ h2 {
   margin: 2rem 0 0.5rem;
 }
 
-a { color: var(--accent); }
+/* Long addresses wrap instead of widening the page on phones. */
+a { color: var(--accent); overflow-wrap: anywhere; }
 
 .updated, .lang { color: var(--muted); margin: 0; }
 
