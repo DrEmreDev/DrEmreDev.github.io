@@ -13,7 +13,7 @@
 <p class="lang"><a href="../privacy/" hreflang="en" lang="en">English</a></p>
 
 <h1>Namaz Saat · Gizlilik politikası</h1>
-<p class="updated">Son güncelleme: 26 Ekim 2026</p>
+<p class="updated">Son güncelleme: 27 Ekim 2026</p>
 
 <p>Namaz Saat, namaz vakitlerini gösteren ve vakit girince bildirim veren bir Android uygulamasıdır. Bu sayfa, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) kapsamındaki aydınlatma metnidir: uygulamanın hangi bilgileri kullandığını, nerede tuttuğunu ve kimlerle paylaştığını anlatır.</p>
 
@@ -23,7 +23,7 @@
 <li>Reklam yok. Analiz, izleme ya da reklam aracı kullanılmaz.</li>
 <li>Hesap gerekmez. Adın, e-postan ya da telefon numaran istenmez.</li>
 <li>Uygulamanın şimdiki sürümleri internete bağlanmaz ve kendiliğinden hiçbir bilgi göndermez.</li>
-<li>Konumun yalnız telefonunda, en yakın ilçeyi bulmak için kullanılır. Saklanmaz ve uygulama onu hiçbir yere göndermez.</li>
+<li>Konumun yalnız telefonunda kullanılır: en yakın ilçeyi bulmak ve yolculuk modunu açtıysan evinden uzakta olduğunu fark etmek için. Uygulama onu hiçbir yere göndermez.</li>
 <li>Uygulamanın bilgileri Android'in Google hesabına yedeklemesine ve yeni telefona aktarımına dahil edilmez.</li>
 <li>Hata kaydı telefonunda tutulur. Geliştiriciye ancak sen paylaşırsan ulaşır.</li>
 </ul>
@@ -37,24 +37,28 @@ Sorular ve kişisel verilerinle ilgili talepler için: <a href="mailto:emre.bbt0
 <p>Uygulama aşağıdakileri yalnız telefonunda, Android'in uygulamaya ayırdığı ve başka uygulamaların okuyamadığı alanda tutar:</p>
 <ul>
 <li>Seçili ilçe ve son kullanılan en fazla beş ilçe (seçili ilçe dahil). Otomatik konumun seçtiği ilçeler de bu listeye girer; otomatik konum açıksa liste, yakın zamanda bulunduğun ilçeleri gösterebilir.</li>
-<li>Otomatik konumun açık olup olmadığı ve konumun en son ne zaman okunduğu. Konumun kendisi tutulmaz.</li>
+<li>Otomatik konumun açık olup olmadığı ve konumun en son ne zaman okunduğu. Konumun kendisi tutulmaz; yolculuk modunu açtıysan tutulan yaklaşık yerler bu listenin son maddesindedir.</li>
 <li>Her vakit için bildirim ayarların (bildirim sesi, önceden hatırlatma) ve önümüzdeki yedi günün planlanmış bildirimleri. Vakit bildirimlerinin başlığında ilçenin adı yer alır.</li>
 <li>Tema seçimin ve ilk açılışta hangi adımda kaldığın.</li>
+<li>Ana ekran widget'ı ve kilit ekranı geri sayımı için hazırlanan vakit çizelgesi: seçili ilçenin adı ve telefondaki günlerin vakitleri. Widget'ı eklediğinde hemen çalışsın diye widget kullanmasan da hazırlanır. Yalnız seçili ilçe için tutulur ve uygulama silinince silinir. Kilit ekranı geri sayımının açık olup olmadığı da tutulur.</li>
 <li>Yalnız bu beş ilçe için vakitlerin ve ilçe bilgilerinin önbelleği: ilçenin adı, ili, saat dilimi, ilçe merkezinin koordinatları ve kaydın ne zaman yapıldığı. Listeden çıkan bir ilçenin bilgileri silinir; eski aylar da zamanla silinir.</li>
 <li>Hata kaydı (<a href="#hata">5. bölüm</a>).</li>
+<li>Yolculuk modunu açtıysan: evinin yaklaşık yeri (yaklaşık 1 km'ye yuvarlanmış koordinat); yolculuk durumun (evde, evden uzakta, seferî değil, seferî ya da gittiğin yerde mukim) ve kartlara verdiğin cevaplar; yolculuk sırasında en son durduğun yerin, "Burada kaç gün kalacaksın?" kartını en son cevapladığın ya da kapattığın yerin ve mukim olduğun yerin yaklaşık yerleri; ilk ikisine ilk ne zaman bakıldığı; konumun en son ne zaman okunduğu ve son okumada evine yaklaşık kaç km uzakta olduğun; mezhep seçimin. Eve dönünce yolculuk yerleri silinir. Yolculuk modunu kapatınca evinin yeri ve yolculuk bilgileri silinir; mezhep seçimin kalır. Mezhep seçimin yalnız yolculuk modunun kartlarını, yolculuk durumunu ve "Yolculukta namaz" sayfasını mezhebine göre göstermek için kullanılır; namaz vakitlerini değiştirmez. Dinî inanca ilişkin bir bilgidir; yalnız telefonunda tutulur, hata kaydına yazılmaz, gönderilmez ve geliştiriciye ulaşmaz.</li>
 </ul>
 <p>Uygulama bu bilgileri geliştiriciye ya da başka birine kendiliğinden göndermez; hata kaydı ancak sen paylaşırsan telefonundan çıkar. Namaz vakitleri ve bildirim ayarları dini yaşantına dair bir fikir verebileceği için uygulama bu bilgilerin Android'in Google hesabına yedeklemesine ve yeni telefona aktarımına girmesine de izin vermez. Bu yüzden yeni bir telefonda ilçeni yeniden seçersin.</p>
 
 <h2 id="konum">3. Konum</h2>
 <ul>
-<li>Uygulama konumu iki durumda okur: ilçe seçerken "Konumumu kullan"a dokunduğunda ve otomatik konum açıkken.</li>
+<li>Uygulama konumu dört durumda okur: ilçe seçerken "Konumumu kullan"a dokunduğunda, ev konumunu seçerken "Şu an evdeyim, konumumu kullan"a dokunduğunda (evinin yeri için bir kez), otomatik konum açıkken ve yolculuk modu açıkken.</li>
 <li>İlçeni "Konumumu kullan" ile seçersen otomatik konum kendiliğinden açılır. Ayarlar › Konum › Otomatik konum'u açtığında da konum hemen bir kez okunur.</li>
 <li>Otomatik konum açıkken uygulama, her açıldığında ya da yeniden öne geldiğinde, son okumanın üzerinden en az yarım saat geçmişse konumu yeniden okur ve daha yakın bir ilçedeysen ilçeni değiştirir.</li>
+<li>Yolculuk modu açıkken uygulama, her açıldığında ya da yeniden öne geldiğinde, son beş dakikada okunmuş bir konum varsa onu kullanır; yoksa ve son denemenin üzerinden en az yarım saat geçmişse konumu yeniden okur. Otomatik konum da açıksa ikisi aynı okumayı kullanır. Konum yalnız telefonda, evine ve bölüm 2'de sayılan yolculuk yerlerine olan uzaklığı hesaplamak ve bu yerleri yaklaşık olarak kaydetmek için kullanılır.</li>
 <li>Konum yalnız uygulama kullanılırken okunur. Arka planda okunmaz ve arka plan konum izni istenmez.</li>
 <li>Yaklaşık konum yeterlidir. Android 12 ve sonrasında izin penceresinde "Yaklaşık"ı seçebilirsin.</li>
-<li>Konumun (koordinatlar) saklanmaz, hata kaydına yazılmaz ve uygulama tarafından hiçbir yere gönderilmez. Konumdan yalnız ilçe sonucu saklanır: seçili ilçe, son kullanılan en fazla beş ilçe ve konumun en son ne zaman okunduğu.</li>
+<li>Okunan konumun koordinatları olduğu gibi saklanmaz, hata kaydına yazılmaz ve uygulama tarafından hiçbir yere gönderilmez. Konumdan yalnız şunlar saklanır: seçili ilçe, son kullanılan en fazla beş ilçe ve konumun en son ne zaman okunduğu; yolculuk modunu açtıysan ayrıca evinin ve bölüm 2'de sayılan yolculuk yerlerinin yaklaşık 1 km'ye yuvarlanmış koordinatları, en son durduğun yere ve "Burada kaç gün kalacaksın?" kartını en son cevapladığın ya da kapattığın yere ilk ne zaman bakıldığı, yolculuk durumun ve son okumada evine yaklaşık kaç km uzakta olduğun. Yuvarlanmış yerler de hata kaydına yazılmaz ve uygulama tarafından hiçbir yere gönderilmez.</li>
 <li>Konum, telefonun konum hizmetlerinden alınır. Telefonunda Google Play hizmetleri varsa konum onun üzerinden gelebilir. Google bu hizmeti kendi <a href="https://policies.google.com/privacy?hl=tr">gizlilik politikasına</a> göre işletir.</li>
 <li>Otomatik konumu Ayarlar › Konum › Otomatik konum'dan kapatabilirsin. İlçeyi elle seçmek de otomatik konumu kapatır. Konum iznini istediğin zaman telefonunun ayarlarından geri alabilirsin.</li>
+<li>Kıble ekranı açıkken uygulama telefonun pusula ve hareket sensörlerini okur; okunan değerler saklanmaz ve hiçbir yere gönderilmez. Kıble yönü, seçtiğin ilçenin koordinatlarından telefonda hesaplanır.</li>
 </ul>
 
 <h2 id="bildirimler">4. Bildirimler</h2>
@@ -62,6 +66,8 @@ Sorular ve kişisel verilerinle ilgili talepler için: <a href="mailto:emre.bbt0
 <li>Vakit bildirimleri telefonda planlanır ve telefonda gösterilir. Hiçbir sunucudan gelmez.</li>
 <li>Telefon yeniden başlayınca ya da uygulama güncellenince bildirimler yeniden kurulur. Uygulama günde bir kez arka planda bildirim planını yeniler. Bu sırada hiçbir bilgi gönderilmez.</li>
 <li>Vakit bildirimlerinin başlığı ilçenin adını içerir. Kilit ekranında görünüp görünmeyeceklerini telefonunun bildirim ayarlarından seçebilirsin.</li>
+<li>Ayarlar'da "Kilit ekranında geri sayım"ı açarsan sonraki vakte kalan süre, ilçe adı olmadan, bildirim alanında ve kilit ekranında görünür. Telefonunun "hassas içeriği gizle" ayarı bu bildirimi gizlemez; kilit ekranında hiç bildirim göstermemeyi ya da yalnız simge göstermeyi seçtiysen süre kilit ekranında görünmez. Bu geri sayım varsayılan olarak kapalıdır.</li>
+<li>Ana ekrana koyduğun widget seçili ilçenin adını ve vakitleri gösterir. Widget için hiçbir bilgi gönderilmez.</li>
 </ul>
 
 <h2 id="hata">5. Hata kaydı</h2>
@@ -90,16 +96,17 @@ Sorular ve kişisel verilerinle ilgili talepler için: <a href="mailto:emre.bbt0
 <li>Uygulamayı Google Play'den indirirsen Google, indirme ve güncelleme gibi bilgileri kendi politikasına göre işler. Google Play Console bana kimlik içermeyen toplu istatistikler gösterir: indirme sayıları, ülke, cihaz ve Android sürümüne göre dağılım. Telefonunda kullanım ve teşhis verilerinin paylaşımı açıksa Google, uygulama çöktüğünde ya da donduğunda teknik bir rapor da gösterir: hatanın kod içindeki yeri, cihaz modeli, Android ve uygulama sürümü. Bu raporlarda adın ya da hesabın yer almaz. Google Play'de yorum yazarsan yorumun, Google'ın yorumla gösterdiği adın ve cihaz bilgisi bana görünür ve yoruma yanıt verebilirim.</li>
 <li>Paylaşım menüsünde seçtiğin uygulamalar (e-posta, mesajlaşma) gönderdiklerini kendi politikalarına göre işler.</li>
 <li>Ayarlar › Hakkında › "Gizlilik politikası" bağlantısı bu sayfayı (<a href="https://dremredev.github.io/namazsaat/gizlilik/">https://dremredev.github.io/namazsaat/gizlilik/</a>) tarayıcında açar. Bu sayfa GitHub Pages'te barınır. GitHub, ziyaretlerin teknik kayıtlarını (örneğin IP adresi) kendi <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">gizlilik bildirimine</a> göre tutabilir.</li>
+<li>"Yolculukta namaz" sayfasındaki "Kaynak" ve "Ayrıntılı bilgi" bağlantıları Diyanet İşleri Başkanlığı'nın (kurul.diyanet.gov.tr, webdosyasp.diyanet.gov.tr) ve TDV İslâm Ansiklopedisi'nin (islamansiklopedisi.org.tr) sayfalarını tarayıcında açar. Uygulama bu sitelere bir bilgi göndermez; bu siteler ziyaretinin teknik kayıtlarını (örneğin IP adresi ve açılan sayfa) kendi politikalarına göre tutabilir.</li>
 </ul>
 
 <h2 id="izinler">8. İzinler</h2>
 <table>
 <thead><tr><th scope="col">İzin</th><th scope="col">Ne için</th></tr></thead>
 <tbody>
-<tr><td>Bildirim</td><td>Vakit bildirimlerini göstermek</td></tr>
-<tr><td>Alarmlar ve hatırlatıcılar</td><td>Bildirimin vakit girdiği dakikada gelmesi</td></tr>
-<tr><td>Konum (yaklaşık ya da hassas, yalnız uygulama kullanılırken)</td><td>En yakın ilçeyi bulmak</td></tr>
-<tr><td>Açılışta çalıştırma</td><td>Telefon yeniden başlayınca bildirimleri yeniden kurmak</td></tr>
+<tr><td>Bildirim</td><td>Vakit bildirimlerini ve açtıysan kilit ekranı geri sayımını göstermek</td></tr>
+<tr><td>Alarmlar ve hatırlatıcılar</td><td>Bildirimin vakit girdiği dakikada gelmesi; ana ekran widget'ının ve kilit ekranı geri sayımının vakit girince sonraki vakte geçmesi</td></tr>
+<tr><td>Konum (yaklaşık ya da hassas, yalnız uygulama kullanılırken)</td><td>En yakın ilçeyi bulmak; yolculuk modu için evinin ve yolculuk yerlerinin yaklaşık yerini kaydetmek ve evinden uzaklığı hesaplamak</td></tr>
+<tr><td>Açılışta çalıştırma</td><td>Telefon yeniden başlayınca bildirimleri, widget'ı ve kilit ekranı geri sayımını yeniden kurmak</td></tr>
 <tr><td>Titreşim</td><td>Sesli bildirimlerde titreşim</td></tr>
 <tr><td>Uyanık tutma, ağ durumunu görme</td><td>Günlük bildirim planını yenileyen Android kitaplığının (WorkManager) eklediği izinler. Uygulama ağ durumunu kullanmaz.</td></tr>
 </tbody>
@@ -112,6 +119,8 @@ Sorular ve kişisel verilerinle ilgili talepler için: <a href="mailto:emre.bbt0
 <h2 id="saklama">10. Saklama ve silme</h2>
 <ul>
 <li>Telefonundaki bilgiler, uygulamayı kaldırana ya da telefonun ayarlarında Uygulamalar › Namaz Saat › Depolama › "Verileri temizle"yi kullanana kadar kalır. Bilgiler yedeklere girmediği için bununla tamamen silinir.</li>
+<li>"Verileri temizle"den sonra ana ekrandaki widget, uygulamayı yeniden açana ya da widget'ı kaldırana kadar son gösterdiği ilçe adını ve vakitleri göstermeye devam edebilir.</li>
+<li>Yolculuk modunu Ayarlar › Özellikler › Yolculuk modu'ndan kapatınca evinin yeri ve yolculuk bilgileri hemen silinir; mezhep seçimin, yolculuk modunu yeniden açtığında hazır olsun diye kalır. Mezhep seçimini, telefondaki diğer bilgilerle birlikte, uygulamayı kaldırarak ya da "Verileri temizle" ile silebilirsin.</li>
 <li>Önbellekte yalnız son kullanılan beş ilçenin bilgileri tutulur; eski aylar zamanla silinir.</li>
 <li>Geliştiricinin işlediği bilgilerin saklama süreleri için <a href="#gelistirici">6. bölüme</a> bak.</li>
 </ul>
@@ -122,7 +131,7 @@ Sorular ve kişisel verilerinle ilgili talepler için: <a href="mailto:emre.bbt0
 <p>Telefonundaki bilgileri kendin silebilirsin (<a href="#saklama">10. bölüm</a>).</p>
 
 <h2 id="cocuklar">12. Çocuklar</h2>
-<p>Uygulama her yaştan kullanıcıya uygundur. Kimseden kişisel bilgi istemez ve toplamaz.</p>
+<p>Uygulama her yaştan kullanıcıya uygundur. Hesap açtırmaz, adını ya da iletişim bilgilerini istemez. Telefonunda tuttuğu bilgileri (<a href="#telefonda">2. bölüm</a>), yolculuk modunda sorduğu ev konumu ve mezhep dahil, geliştiriciye ya da başka birine kendiliğinden göndermez.</p>
 
 <h2 id="degisiklikler">13. Değişiklikler</h2>
 <p>Bu politika değişirse güncel hali bu adreste yayımlanır ve sayfanın başındaki tarih değişir. Uygulama yeni bir bilgi kullanmaya başlamadan önce bu sayfa güncellenir. Örneğin namaz vakitleri Diyanet İşleri Başkanlığı'nın vakitlerinden kendi sunucumuz üzerinden internetle alınmaya başlayınca, sunucuya hangi bilgilerin gittiği burada önceden anlatılacak.</p>
